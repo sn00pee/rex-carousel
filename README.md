@@ -20,7 +20,7 @@ https://www.npmjs.com/org/rakuten-rex
 # How to install
 
 ```
-npm install @rakuten-rex/rex-carousel@2.4.4 --save
+npm install @rakuten-rex/rex-carousel@2.4.5 --save
 ```
 
 ## What you can do
@@ -130,16 +130,16 @@ For development mode:
 
 ```markdown
 <!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.development.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.development.js"></script>
+<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.5/rex-carousel.development.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.5/rex-carousel.development.js"></script>
 ```
 
 For production mode:
 
 ```markdown
 <!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.production.min.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.production.min.js"></script>
+<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.5/rex-carousel.production.min.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.5/rex-carousel.production.min.js"></script>
 ```
 
 Example: 
