@@ -234,7 +234,7 @@ class Carousel extends Component {
         prevEl: '.swiper-button-prev.rex-icon.chevron-left',
       },
       slidesPerView: isMobile ? 1 : 3,
-      spaceBetween: isMobile ? 0 : 4,
+      spaceBetween: isMobile ? 0 : 8,
       shouldSwiperUpdate: true,
       on: {
         slideChange: this.onSlideChange,

@@ -20,7 +20,7 @@ https://www.npmjs.com/org/rakuten-rex
 # How to install
 
 ```
-npm install @rakuten-rex/rex-carousel@2.4.3 --save
+npm install @rakuten-rex/rex-carousel@2.4.4 --save
 ```
 
 ## What you can do
@@ -47,6 +47,33 @@ Example:
 
 ```js
 import Carousel from '@rakuten-rex/rex-carousel';
+
+const items = [
+  {
+    id: 0,
+    src:
+      'https://img.travel.rakuten.co.jp/movement/yamaguchi/201907/images/cImg01.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item A',
+  },
+  {
+    id: 1,
+    src:
+      'https://img.travel.rakuten.co.jp/select/hokkaido/201906-2/images/149357_1.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item B',
+  },
+  {
+    id: 2,
+    src:
+      'https://img.travel.rakuten.co.jp/select/hokkaido/201906-2/images/104743_1.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item C',
+  }
+];
 
 function MyComponent() {
   return <Carousel items={items} />;
@@ -103,16 +130,16 @@ For development mode:
 
 ```markdown
 <!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.development.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.development.js"></script>
+<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.development.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.development.js"></script>
 ```
 
 For production mode:
 
 ```markdown
 <!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.production.min.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.production.min.js"></script>
+<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.production.min.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.4/rex-carousel.production.min.js"></script>
 ```
 
 Example: 

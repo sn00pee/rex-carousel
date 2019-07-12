@@ -4,7 +4,6 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
 import { checkA11y } from '@storybook/addon-a11y';
 import { withInspectHtml } from 'storybook-inspecthtml';
-import CenterDecorator from '../.storybook/centerDecorator';
 import 'rex-core';
 
 const { default: Carousel } =
@@ -14,7 +13,6 @@ const { default: Carousel } =
 
 const stories = storiesOf('Carousel', module);
 stories.addDecorator(withInspectHtml);
-stories.addDecorator(CenterDecorator);
 stories.addDecorator(checkA11y);
 stories.addDecorator(withKnobs);
 
