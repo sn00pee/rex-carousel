@@ -62,7 +62,7 @@ Example:
 ```js
 import '@rakuten-rex/__COMPONENT_NAME__/css';
 
-function MyComponent() {
+function MyComponent() {
   return (
     <div class="swiper-main-container">
       <div class="swiper-container">
