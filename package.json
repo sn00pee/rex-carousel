@@ -1,6 +1,6 @@
 {
   "name": "@rakuten-rex/rex-carousel",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "ReX React UI Component",
   "main": "src/Carousel.jsx",
   "scripts": {
