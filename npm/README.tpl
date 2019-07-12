@@ -50,9 +50,35 @@ Example:
 ```js
 import Carousel from '@rakuten-rex/__COMPONENT_NAME__';
 
+const items = [
+  {
+    id: 0,
+    src:
+      'https://img.travel.rakuten.co.jp/movement/yamaguchi/201907/images/cImg01.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item A',
+  },
+  {
+    id: 1,
+    src:
+      'https://img.travel.rakuten.co.jp/select/hokkaido/201906-2/images/149357_1.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item B',
+  },
+  {
+    id: 2,
+    src:
+      'https://img.travel.rakuten.co.jp/select/hokkaido/201906-2/images/104743_1.jpg',
+    title: 'Sagano Bamboo Forest',
+    caption: 'Located in Kyoto, Japan',
+    tabName: 'Item C',
+  }
+];
+
 function MyComponent() {
-return
-<Carousel items={items} />;
+  return <Carousel items={items} />;
 }
 ```
 
