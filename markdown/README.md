@@ -1,5 +1,5 @@
 # ReX React UI Components Library
-## ReX React UI Component: rex-carousel
+## ReX React UI Component: __COMPONENT_NAME__
 
 This project is part of ReX Design Language and it can be used to create React UI Components.   
 For more information visit:   
@@ -20,7 +20,7 @@ https://www.npmjs.com/org/rakuten-rex
 # How to install
 
 ```
-npm install @rakuten-rex/rex-carousel@2.4.3 --save
+npm install @rakuten-rex/__COMPONENT_NAME__@__VERSION__ --save
 ```
 
 ## What you can do
@@ -35,7 +35,7 @@ If you need a full environment to create a React Web App, try the react-create-a
 
 For a complete guide of properties for React and HTML classes please visit the Storybook site:  
 
-https://rakuten-rex.github.io/rex-carousel/
+https://rakuten-rex.github.io/__COMPONENT_NAME__/
 
 ### JavaScript modules
 
@@ -46,7 +46,7 @@ For plug and play components integration.
 Example: 
 
 ```js
-import Carousel from '@rakuten-rex/rex-carousel';
+import Carousel from '@rakuten-rex/__COMPONENT_NAME__';
 
 function MyComponent() {
   return <Carousel items={items} />;
@@ -60,7 +60,7 @@ For your own JavaScript integration (React, Vue, Angular, etc.) or Static HTML.
 Example: 
 
 ```js
-import '@rakuten-rex/rex-carousel/css';
+import '@rakuten-rex/__COMPONENT_NAME__/css';
 
 function MyComponent() {
   return (
@@ -102,17 +102,17 @@ Add it from our CDN into your HTML template or HTML static page.
 For development mode:
 
 ```markdown
-<!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.development.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.development.js"></script>
+<!-- __COMPONENT_NAME__ -->
+<link href="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.development.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.development.js"></script>
 ```
 
 For production mode:
 
 ```markdown
-<!-- rex-carousel -->
-<link href="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.production.min.css" rel="stylesheet">
-<script src="https://r.r10s.jp/com/rex/rex-carousel/2.4.3/rex-carousel.production.min.js"></script>
+<!-- __COMPONENT_NAME__ -->
+<link href="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.production.min.css" rel="stylesheet">
+<script src="https://r.r10s.jp/com/rex/__COMPONENT_NAME__/__VERSION__/__COMPONENT_NAME__.production.min.js"></script>
 ```
 
 Example: 
@@ -159,7 +159,7 @@ npm start
 
 ## How to build
 
-The build task will generate a NPM package ready to be published and also a static version of Storybook, one folder for NPM `./node_modules/@rakuten-rex/rex-carousel` and other one for Github pages `./docs`.   
+The build task will generate a NPM package ready to be published and also a static version of Storybook, one folder for NPM `./node_modules/@rakuten-rex/__COMPONENT_NAME__` and other one for Github pages `./docs`.   
 
 ```
 npm run build
@@ -186,14 +186,14 @@ Build the project first.
 After that run the following commands:
 
 ```
-cd ./node_modules/@rakuten-rex/rex-carousel
+cd ./node_modules/@rakuten-rex/__COMPONENT_NAME__
 npm login
 npm publish
 ```
 
 Once the process finish, take a look to the NPM site:   
 
-https://www.npmjs.com/package/@rakuten-rex/rex-carousel
+https://www.npmjs.com/package/@rakuten-rex/__COMPONENT_NAME__
 
 
 ## Javascript and React related documents
