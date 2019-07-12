@@ -247,7 +247,7 @@ class Carousel extends Component {
           key={item.id}
           id={item.id}
           itemId={index}
-          title={item.title}
+          title={`${item.title} ${item.id}`}
           caption={item.caption}
           src={item.src}
         />
