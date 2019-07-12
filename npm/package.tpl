@@ -40,10 +40,16 @@
   },
   "peerDependencies": {
     "react": "__REACT_VERSION__",
-    "react-dom": "__REACT_DOM_VERSION__"
+    "react-dom": "__REACT_DOM_VERSION__",
+    "rex-core": "__REX_CORE_VERSION__",
+    "swiper": "__SWIPER_VERSION__",
+    "react-id-swiper": "__REACT_ID_SWIPER_VERSION__"
   },
   "devDependencies": {
     "react": "__REACT_VERSION__",
-    "react-dom": "__REACT_DOM_VERSION__"
+    "react-dom": "__REACT_DOM_VERSION__",
+    "rex-core": "__REX_CORE_VERSION__",
+    "swiper": "__SWIPER_VERSION__",
+    "react-id-swiper": "__REACT_ID_SWIPER_VERSION__"
   }
 }
