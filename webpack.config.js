@@ -201,7 +201,8 @@ const npmPackagePlugin = new CopyWebpackPlugin([
         .replace(
           /__REACT_ID_SWIPER_VERSION__/g,
           packageInfo.dependencies['react-id-swiper']
-        );
+        )
+        .replace(/__REX_CORE_VERSION__/g, packageInfo.dependencies['rex-core']);
     },
   },
 ]);
