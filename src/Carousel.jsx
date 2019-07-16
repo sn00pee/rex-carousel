@@ -218,7 +218,7 @@ class Carousel extends Component {
 
   render() {
     const { activeIndex, itemsLength, isTabActive } = this.state;
-    const { items } = this.props;
+    const { items, transparency } = this.props;
     const isFirstSlide = activeIndex === 0;
     const isLastSlide = activeIndex === itemsLength - 1;
     const isMobile = window.innerWidth < 576;
@@ -250,6 +250,7 @@ class Carousel extends Component {
           title={`${item.title} ${item.id}`}
           caption={item.caption}
           src={item.src}
+          transparency={transparency}
         />
       ));
 
@@ -260,7 +261,7 @@ class Carousel extends Component {
     };
 
     return (
-      <div className="swiper-main-container">
+      <div className="rex-carousel-container">
         {isTabActive && (
           <CarouselTabs
             items={items}
@@ -286,6 +287,7 @@ Carousel.defaultProps = {
   items: node,
   goToIndex: () => {},
   isTabActive: false,
+  transparency: '0.24',
 };
 
 Carousel.propTypes = {
@@ -300,6 +302,7 @@ Carousel.propTypes = {
   ),
   goToIndex: func,
   isTabActive: bool,
+  transparency: number,
 };
 
 export default Carousel;
