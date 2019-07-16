@@ -132,5 +132,10 @@ const items = [
 ];
 
 // Stories
-stories.add('default Carousel', () => <Carousel items={items} />);
-stories.add('withTabs Carousel', () => <Carousel items={items} isTabActive />);
+stories.add('default Carousel', () => (
+  <Carousel items={items} transparency={0.24} />
+));
+
+stories.add('withTabs Carousel', () => (
+  <Carousel items={items} transparency={0.24} isTabActive />
+));
