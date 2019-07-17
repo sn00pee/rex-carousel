@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs';
+import { withKnobs, number } from '@storybook/addon-knobs';
 import { checkA11y } from '@storybook/addon-a11y';
 import { withInspectHtml } from 'storybook-inspecthtml';
 import 'rex-core';
@@ -132,10 +132,18 @@ const items = [
 ];
 
 // Stories
-stories.add('default Carousel', () => (
-  <Carousel items={items} transparency={0.24} />
-));
+stories.add('default Carousel', () => {
+  const label = 'Backdrop Transparency';
+  const defaultValue = 0.24;
+  const transparencyKnob = number(label, defaultValue);
 
-stories.add('withTabs Carousel', () => (
-  <Carousel items={items} transparency={0.24} isTabActive />
-));
+  return <Carousel items={items} transparency={transparencyKnob} />;
+});
+
+stories.add('withTabs Carousel', () => {
+  const label = 'Backdrop Transparency';
+  const defaultValue = 0.24;
+  const transparencyKnob = number(label, defaultValue);
+
+  return <Carousel items={items} transparency={transparencyKnob} isTabActive />;
+});
