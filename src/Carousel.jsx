@@ -255,6 +255,10 @@ class Carousel extends Component {
       ));
 
     const setSwiper = swiperInstance => {
+      const { swiper } = this.state;
+
+      if (swiper === swiperInstance) return;
+
       this.setState({
         swiper: swiperInstance,
       });
@@ -274,7 +278,6 @@ class Carousel extends Component {
         <Swiper
           {...params}
           getSwiper={swiperInstance => setSwiper(swiperInstance)}
-          modules={[SwiperModule.Navigation, SwiperModule.Pagination]}
         >
           {renderItems(items)}
         </Swiper>
