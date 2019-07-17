@@ -76,7 +76,7 @@ const items = [
 ];
 
 function MyComponent() {
-  return <Carousel items={items} />;
+  return <Carousel items={items} transparency={0.24} />;
 }
 ```
 
@@ -95,18 +95,21 @@ function MyComponent() {
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="0">
+            <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
             <div class="carousel-item-description">
               <div class="carousel-item-title">Sagano Bamboo Forest</div>
               <div class="carousel-item-caption">Located in Kyoto, Japan</div>
             </div>
           </div>
           <div class="isActive swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="1">
+            <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
             <div class="carousel-item-description">
               <div class="carousel-item-title">Sagano Bamboo Forest</div>
               <div class="carousel-item-caption">Located in Kyoto, Japan</div>
             </div>
           </div>
           <div class="swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="2">
+            <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
             <div class="carousel-item-description">
               <div class="carousel-item-title">Sagano Bamboo Forest</div>
               <div class="carousel-item-caption">Located in Kyoto, Japan</div>
@@ -150,18 +153,21 @@ Example:
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="0">
+          <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
           <div class="carousel-item-description">
             <div class="carousel-item-title">Sagano Bamboo Forest</div>
             <div class="carousel-item-caption">Located in Kyoto, Japan</div>
           </div>
         </div>
         <div class="isActive swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="1">
+          <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
           <div class="carousel-item-description">
             <div class="carousel-item-title">Sagano Bamboo Forest</div>
             <div class="carousel-item-caption">Located in Kyoto, Japan</div>
           </div>
         </div>
         <div class="swiper-slide" role="presentation" style="background-image:url(https://picsum.photos/376/200)" data-itemid="2">
+          <div class="carousel-backdrop" style="background:rgba(0, 0, 0, 0.24)"></div>
           <div class="carousel-item-description">
             <div class="carousel-item-title">Sagano Bamboo Forest</div>
             <div class="carousel-item-caption">Located in Kyoto, Japan</div>
