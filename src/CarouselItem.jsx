@@ -6,6 +6,7 @@ const CarouselItem = ({ id, src, title, caption, itemId, transparency }) => {
   const itemClass = id === 1 && 'isActive';
   const classes = composeClassName([itemClass, 'swiper-slide']);
 
+
   return (
     <div
       {...classes}
@@ -15,7 +16,9 @@ const CarouselItem = ({ id, src, title, caption, itemId, transparency }) => {
     >
       <div
         className="carousel-backdrop"
-        style={{ background: `rgba(0, 0, 0, ${transparency})` }}
+        style={{
+          background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, ${transparency}) 100%)`,
+        }}
       />
       <div className="carousel-item-description">
         <div className="carousel-item-title">{title}</div>
