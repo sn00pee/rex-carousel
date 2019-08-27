@@ -76,6 +76,15 @@ body {
     @media (max-width: 576px) {
       width: 100vw !important;
     }
+  
+  .rex-icon::before {
+    color: red;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 .swiper-button-next,
@@ -98,15 +107,6 @@ body {
   @media (max-width: 576px) {
     display: none !important;
   }
-}
-
-.rex-icon::before {
-  color: red;
-  font-size: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .swiper-button-prev::before {
